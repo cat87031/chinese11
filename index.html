@@ -489,14 +489,29 @@
                 <div class="vocabulary-item" onclick="showCharacterDetail('粉', 'ㄈㄣˇ', '米', 10, '左右結構')">
                     粉 <span class="bopomofo-small">ㄈㄣˇ</span>
                 </div>
+                <div class="vocabulary-item" onclick="showCharacterDetail('變', 'ㄅㄧㄢˋ', '言', 23, '上下結構')">
+                    變 <span class="bopomofo-small">ㄅㄧㄢˋ</span>
+                </div>
                 <div class="vocabulary-item" onclick="showCharacterDetail('南', 'ㄋㄢˊ', '十', 9, '上下結構')">
                     南 <span class="bopomofo-small">ㄋㄢˊ</span>
                 </div>
-                <div class="vocabulary-item" onclick="showCharacterDetail('黃', 'ㄏㄨㄤˊ', '黃', 12, '上下結構')">
-                    黃 <span class="bopomofo-small">ㄏㄨㄤˊ</span>
+                <div class="vocabulary-item" onclick="showCharacterDetail('瓜', 'ㄍㄨㄚ', '瓜', 5, '獨體字')">
+                    瓜 <span class="bopomofo-small">ㄍㄨㄚ</span>
                 </div>
-                <div class="vocabulary-item" onclick="showCharacterDetail('真', 'ㄓㄣ', '目', 10, '上下結構')">
-                    真 <span class="bopomofo-small">ㄓㄣ</span>
+                <div class="vocabulary-item" onclick="showCharacterDetail('神', 'ㄕㄣˊ', '示', 9, '左右結構')">
+                    神 <span class="bopomofo-small">ㄕㄣˊ</span>
+                </div>
+                <div class="vocabulary-item" onclick="showCharacterDetail('奇', 'ㄑㄧˊ', '大', 8, '上下結構')">
+                    奇 <span class="bopomofo-small">ㄑㄧˊ</span>
+                </div>
+                <div class="vocabulary-item" onclick="showCharacterDetail('顏', 'ㄧㄢˊ', '頁', 18, '左右結構')">
+                    顏 <span class="bopomofo-small">ㄧㄢˊ</span>
+                </div>
+                <div class="vocabulary-item" onclick="showCharacterDetail('藍', 'ㄌㄢˊ', '艸', 17, '上下結構')">
+                    藍 <span class="bopomofo-small">ㄌㄢˊ</span>
+                </div>
+                <div class="vocabulary-item" onclick="showCharacterDetail('音', 'ㄧㄣ', '音', 9, '上下結構')">
+                    音 <span class="bopomofo-small">ㄧㄣ</span>
                 </div>
                 <div class="vocabulary-item" onclick="showCharacterDetail('呵', 'ㄏㄜ', '口', 8, '左右結構')">
                     呵 <span class="bopomofo-small">ㄏㄜ</span>
@@ -507,100 +522,99 @@
                 <div class="vocabulary-item" onclick="showCharacterDetail('牛', 'ㄋㄧㄡˊ', '牛', 4, '獨體字')">
                     牛 <span class="bopomofo-small">ㄋㄧㄡˊ</span>
                 </div>
-            </div>
-        </section>
-        
-        <section id="character-detail" class="character-detail">
-            <div class="character-header">
-                <div class="character-large" id="char-large">湯</div>
-                <div class="character-info-basic">
-                    <h3>生字詳解</h3>
-                    <p>注音：<span id="char-bopomofo" class="bopomofo">ㄊㄤ</span></p>
-                    <p>部首：<span id="char-radical">水</span></p>
-                    <p>筆畫：<span id="char-strokes">12</span> 畫</p>
-                    <p>結構：<span id="char-structure">左右結構</span></p>
+                <div class="vocabulary-item" onclick="showCharacterDetail('隻', 'ㄓ', '隹', 10, '上下結構')">
+                    隻 <span class="bopomofo-small">ㄓ</span>
+                </div>
+                <div class="vocabulary-item" onclick="showCharacterDetail('物', 'ㄨˋ', '牛', 8, '左右結構')">
+                    物 <span class="bopomofo-small">ㄨˋ</span>
+                </div>
+                <div class="vocabulary-item" onclick="showCharacterDetail('包', 'ㄅㄠ', '勹', 5, '半包圍結構')">
+                    包 <span class="bopomofo-small">ㄅㄠ</span>
                 </div>
             </div>
             
-            <div class="character-info">
-                <div class="info-section">
-                    <h3><i class="fas fa-pen-nib"></i> 造詞</h3>
-                    <ul id="char-words">
-                        <li>湯圓</li>
-                        <li>熱湯</li>
-                        <li>雞湯</li>
-                    </ul>
+            <!-- 生字詳解區域 -->
+            <section id="character-detail" class="character-detail">
+                <div class="character-header">
+                    <div class="character-large" id="char-large">湯</div>
+                    <div class="character-info-basic">
+                        <h3>生字詳解</h3>
+                        <p><strong>注音：</strong><span id="char-bopomofo">ㄊㄤ</span></p>
+                        <p><strong>部首：</strong><span id="char-radical">水</span></p>
+                        <p><strong>總筆畫：</strong><span id="char-strokes">12</span></p>
+                        <p><strong>結構：</strong><span id="char-structure">左右結構</span></p>
+                    </div>
                 </div>
                 
-                <div class="info-section">
-                    <h3><i class="fas fa-book"></i> 成語</h3>
-                    <ul id="char-idioms">
-                        <li>赴湯蹈火</li>
-                        <li>揚湯止沸</li>
-                        <li>殘湯剩飯</li>
-                    </ul>
+                <div class="character-info">
+                    <div class="info-section">
+                        <h3><i class="fas fa-pen"></i> 筆順</h3>
+                        <p>點、點、提、橫折、橫、橫、豎提、撇、捺、橫折折撇、捺</p>
+                    </div>
+                    
+                    <div class="info-section">
+                        <h3><i class="fas fa-book"></i> 字義</h3>
+                        <p>1. 熱水、沸水<br>2. 食物烹煮後所得的汁液<br>3. 中藥的湯劑</p>
+                    </div>
+                    
+                    <div class="info-section">
+                        <h3><i class="fas fa-comment"></i> 造詞</h3>
+                        <ul>
+                            <li>湯圓（ㄊㄤ ㄩㄢˊ）- 一種糯米製成的圓形食品</li>
+                            <li>湯匙（ㄊㄤ ㄔˊ）- 舀湯用的小勺子</li>
+                            <li>湯麵（ㄊㄤ ㄇㄧㄢˋ）- 帶湯的麵條</li>
+                            <li>雞湯（ㄐㄧ ㄊㄤ）- 用雞肉熬製的湯</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-section">
+                        <h3><i class="fas fa-lightbulb"></i> 例句</h3>
+                        <ul>
+                            <li>冬至時，我們全家一起吃<strong>湯</strong>圓。</li>
+                            <li>媽媽煮的雞<strong>湯</strong>非常好喝。</li>
+                            <li>這家中藥店的<strong>湯</strong>劑很有名。</li>
+                        </ul>
+                    </div>
                 </div>
-                
-                <div class="info-section">
-                    <h3><i class="fas fa-comment"></i> 造句</h3>
-                    <ul id="char-sentences">
-                        <li>冬至時我們會吃幸福湯圓。</li>
-                        <li>媽媽煮了一鍋熱湯給我們喝。</li>
-                    </ul>
-                </div>
-                
-                <div class="info-section">
-                    <h3><i class="fas fa-lightbulb"></i> 字義</h3>
-                    <ul id="char-meaning">
-                        <li>熱水、沸水</li>
-                        <li>食物煮後所得的汁液</li>
-                        <li>中藥的湯劑</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="external-links">
-                <a href="https://pedia.cloud.edu.tw/Entry/Detail/?title=湯" class="external-link" target="_blank">教育百科</a>
-                <a href="https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=湯" class="external-link" target="_blank">成語典</a>
-            </div>
+            </section>
         </section>
         
         <section id="similar-characters">
             <h2><span class="section-icon">3</span> 形近字比較</h2>
             <div class="similar-characters">
                 <div class="character-group">
-                    <h3>今 <span class="bopomofo">ㄐㄧㄣ</span></h3>
+                    <h3>湯 - 燙 - 蕩</h3>
                     <ul>
-                        <li>金 <span class="bopomofo">ㄐㄧㄣ</span> - 金色、黃金</li>
-                        <li>令 <span class="bopomofo">ㄌㄧㄥˋ</span> - 命令、令尊</li>
-                        <li>全 <span class="bopomofo">ㄑㄩㄢˊ</span> - 全部、完全</li>
+                        <li>湯 <span class="bopomofo">ㄊㄤ</span>：湯圓、雞湯</li>
+                        <li>燙 <span class="bopomofo">ㄊㄤˋ</span>：燙手、燙髮</li>
+                        <li>蕩 <span class="bopomofo">ㄉㄤˋ</span>：蕩鞦韆、蕩漾</li>
                     </ul>
                 </div>
                 
                 <div class="character-group">
-                    <h3>至 <span class="bopomofo">ㄓˋ</span></h3>
+                    <h3>今 - 令 - 合</h3>
                     <ul>
-                        <li>到 <span class="bopomofo">ㄉㄠˋ</span> - 到達、遲到</li>
-                        <li>致 <span class="bopomofo">ㄓˋ</span> - 導致、致謝</li>
-                        <li>室 <span class="bopomofo">ㄕˋ</span> - 教室、室內</li>
+                        <li>今 <span class="bopomofo">ㄐㄧㄣ</span>：今天、今年</li>
+                        <li>令 <span class="bopomofo">ㄌㄧㄥˋ</span>：命令、令人</li>
+                        <li>合 <span class="bopomofo">ㄏㄜˊ</span>：合作、合併</li>
                     </ul>
                 </div>
                 
                 <div class="character-group">
-                    <h3>陽 <span class="bopomofo">ㄧㄤˊ</span></h3>
+                    <h3>妹 - 味 - 昧</h3>
                     <ul>
-                        <li>湯 <span class="bopomofo">ㄊㄤ</span> - 熱湯、泡湯</li>
-                        <li>場 <span class="bopomofo">ㄔㄤˇ</span> - 市場、場地</li>
-                        <li>揚 <span class="bopomofo">ㄧㄤˊ</span> - 揚起、表揚</li>
+                        <li>妹 <span class="bopomofo">ㄇㄟˋ</span>：妹妹、姐妹</li>
+                        <li>味 <span class="bopomofo">ㄨㄟˋ</span>：味道、味覺</li>
+                        <li>昧 <span class="bopomofo">ㄇㄟˋ</span>：曖昧、愚昧</li>
                     </ul>
                 </div>
                 
                 <div class="character-group">
-                    <h3>真 <span class="bopomofo">ㄓㄣ</span></h3>
+                    <h3>陽 - 場 - 揚</h3>
                     <ul>
-                        <li>直 <span class="bopomofo">ㄓˊ</span> - 直線、直接</li>
-                        <li>具 <span class="bopomofo">ㄐㄩˋ</span> - 工具、具體</li>
-                        <li>值 <span class="bopomofo">ㄓˊ</span> - 價值、值班</li>
+                        <li>陽 <span class="bopomofo">ㄧㄤˊ</span>：太陽、陽光</li>
+                        <li>場 <span class="bopomofo">ㄔㄤˇ</span>：場地、場合</li>
+                        <li>揚 <span class="bopomofo">ㄧㄤˊ</span>：揚起、表揚</li>
                     </ul>
                 </div>
             </div>
@@ -612,35 +626,37 @@
                 <div class="character-group">
                     <h3>和</h3>
                     <ul>
-                        <li>和 <span class="bopomofo">ㄏㄜˊ</span> - 和平、和氣</li>
-                        <li>和 <span class="bopomofo">ㄏㄢˋ</span> - 和詩、唱和</li>
-                        <li>和 <span class="bopomofo">ㄏㄨㄛˋ</span> - 和麵、和泥</li>
-                        <li>和 <span class="bopomofo">ㄏㄨㄛˊ</span> - 暖和、軟和</li>
-                    </ul>
-                </div>
-                
-                <div class="character-group">
-                    <h3>呵</h3>
-                    <ul>
-                        <li>呵 <span class="bopomofo">ㄏㄜ</span> - 呵護、呵氣</li>
-                        <li>呵 <span class="bopomofo">ㄚ</span> - 語氣詞，表示驚訝</li>
+                        <li>和 <span class="bopomofo">ㄏㄢˋ</span>：我和你、和麵</li>
+                        <li>和 <span class="bopomofo">ㄏㄜˊ</span>：和平、和氣</li>
+                        <li>和 <span class="bopomofo">ㄏㄨㄛˋ</span>：和藥、和泥</li>
+                        <li>和 <span class="bopomofo">ㄏㄨㄛˊ</span>：暖和、軟和</li>
                     </ul>
                 </div>
                 
                 <div class="character-group">
                     <h3>的</h3>
                     <ul>
-                        <li>的 <span class="bopomofo">ㄉㄧˊ</span> - 的確、的當</li>
-                        <li>的 <span class="bopomofo">ㄉㄧˋ</span> - 目的、標的</li>
-                        <li>的 <span class="bopomofo">˙ㄉㄜ</span> - 我的、快樂的</li>
+                        <li>的 <span class="bopomofo">˙ㄉㄜ</span>：我的、快樂的</li>
+                        <li>的 <span class="bopomofo">ㄉㄧˊ</span>：的確、的當</li>
+                        <li>的 <span class="bopomofo">ㄉㄧˋ</span>：目的、標的</li>
                     </ul>
                 </div>
                 
                 <div class="character-group">
                     <h3>了</h3>
                     <ul>
-                        <li>了 <span class="bopomofo">ㄌㄧㄠˇ</span> - 了解、了結</li>
-                        <li>了 <span class="bopomofo">˙ㄌㄜ</span> - 走了、吃了</li>
+                        <li>了 <span class="bopomofo">˙ㄌㄜ</span>：吃了、走了</li>
+                        <li>了 <span class="bopomofo">ㄌㄧㄠˇ</span>：了解、了結</li>
+                    </ul>
+                </div>
+                
+                <div class="character-group">
+                    <h3>著</h3>
+                    <ul>
+                        <li>著 <span class="bopomofo">˙ㄓㄜ</span>：看著、聽著</li>
+                        <li>著 <span class="bopomofo">ㄓㄠˊ</span>：睡著、著火</li>
+                        <li>著 <span class="bopomofo">ㄓㄨㄛˊ</span>：著陸、著手</li>
+                        <li>著 <span class="bopomofo">ㄓㄠ</span>：高著、妙著</li>
                     </ul>
                 </div>
             </div>
@@ -649,55 +665,18 @@
         <section id="vocabulary-phrases">
             <h2><span class="section-icon">5</span> 語詞學習</h2>
             <div class="vocabulary-recognition">
+                <h3>本課重要語詞</h3>
                 <div class="recognition-list">
-                    <div class="recognition-item">
-                        <h3>湯圓</h3>
-                        <p><span class="bopomofo">ㄊㄤ ㄩㄢˊ</span></p>
-                    </div>
-                    <div class="recognition-item">
-                        <h3>今天</h3>
-                        <p><span class="bopomofo">ㄐㄧㄣ ㄊㄧㄢ</span></p>
-                    </div>
-                    <div class="recognition-item">
-                        <h3>冬至</h3>
-                        <p><span class="bopomofo">ㄉㄨㄥ ㄓˋ</span></p>
-                    </div>
-                    <div class="recognition-item">
-                        <h3>妹妹</h3>
-                        <p><span class="bopomofo">ㄇㄟˋ ˙ㄇㄟ</span></p>
-                    </div>
-                    <div class="recognition-item">
-                        <h3>太陽</h3>
-                        <p><span class="bopomofo">ㄊㄞˋ ㄧㄤˊ</span></p>
-                    </div>
-                    <div class="recognition-item">
-                        <h3>因為</h3>
-                        <p><span class="bopomofo">ㄧㄣ ㄨㄟˋ</span></p>
-                    </div>
-                    <div class="recognition-item">
-                        <h3>期待</h3>
-                        <p><span class="bopomofo">ㄑㄧˊ ㄉㄞˋ</span></p>
-                    </div>
-                    <div class="recognition-item">
-                        <h3>變成</h3>
-                        <p><span class="bopomofo">ㄅㄧㄢˋ ㄔㄥˊ</span></p>
-                    </div>
-                    <div class="recognition-item">
-                        <h3>黃色</h3>
-                        <p><span class="bopomofo">ㄏㄨㄤˊ ㄙㄜˋ</span></p>
-                    </div>
-                    <div class="recognition-item">
-                        <h3>真是</h3>
-                        <p><span class="bopomofo">ㄓㄣ ㄕˋ</span></p>
-                    </div>
-                    <div class="recognition-item">
-                        <h3>笑呵呵</h3>
-                        <p><span class="bopomofo">ㄒㄧㄠˋ ㄏㄜ ㄏㄜ</span></p>
-                    </div>
-                    <div class="recognition-item">
-                        <h3>接著</h3>
-                        <p><span class="bopomofo">ㄐㄧㄝ ˙ㄓㄜ</span></p>
-                    </div>
+                    <div class="recognition-item">冬至</div>
+                    <div class="recognition-item">湯圓</div>
+                    <div class="recognition-item">糯米團</div>
+                    <div class="recognition-item">芝麻粉</div>
+                    <div class="recognition-item">南瓜粉</div>
+                    <div class="recognition-item">五顏六色</div>
+                    <div class="recognition-item">神奇</div>
+                    <div class="recognition-item">幸福</div>
+                    <div class="recognition-item">期待</div>
+                    <div class="recognition-item">動手</div>
                 </div>
             </div>
         </section>
@@ -705,389 +684,69 @@
         <section id="recognition-words">
             <h2><span class="section-icon">6</span> 認讀字</h2>
             <div class="vocabulary-recognition">
+                <h3>本課認讀字詞</h3>
                 <div class="recognition-list">
-                    <div class="recognition-item">
-                        <h3>糯</h3>
-                        <p><span class="bopomofo">ㄋㄨㄛˋ</span></p>
-                    </div>
-                    <div class="recognition-item">
-                        <h3>變</h3>
-                        <p><span class="bopomofo">ㄅㄧㄢˋ</span></p>
-                    </div>
+                    <div class="recognition-item">小雨</div>
+                    <div class="recognition-item">心裡</div>
+                    <div class="recognition-item">太陽</div>
+                    <div class="recognition-item">動手</div>
+                    <div class="recognition-item">盯著</div>
+                    <div class="recognition-item">白色</div>
+                    <div class="recognition-item">黑色</div>
+                    <div class="recognition-item">黃色</div>
+                    <div class="recognition-item">綠色</div>
+                    <div class="recognition-item">藍色</div>
+                    <div class="recognition-item">粉紅色</div>
+                    <div class="recognition-item">開心</div>
+                    <div class="recognition-item">笑呵呵</div>
+                    <div class="recognition-item">接著</div>
+                    <div class="recognition-item">動物</div>
+                    <div class="recognition-item">出現</div>
+                    <div class="recognition-item">笑聲</div>
                 </div>
             </div>
         </section>
         
-        <a href="#" class="download-btn"><i class="fas fa-download"></i> 下載完整教學資源</a>
+        <div class="external-links">
+            <a href="#" class="external-link"><i class="fas fa-download"></i> 下載生字練習簿</a>
+            <a href="#" class="external-link"><i class="fas fa-book"></i> 延伸閱讀材料</a>
+            <a href="#" class="external-link"><i class="fas fa-gamepad"></i> 生字遊戲</a>
+        </div>
     </div>
 
     <script>
-        // 生字資料庫
-        const characterData = {
-            '湯': {
-                words: ['湯圓', '熱湯', '雞湯', '湯匙', '湯麵'],
-                idioms: ['赴湯蹈火', '揚湯止沸', '殘湯剩飯', '如湯沃雪'],
-                sentences: [
-                    '冬至時我們會吃幸福<span class="highlight">湯</span>圓。',
-                    '媽媽煮了一鍋熱<span class="highlight">湯</span>給我們喝。'
-                ],
-                meaning: [
-                    '熱水、沸水',
-                    '食物煮後所得的汁液',
-                    '中藥的湯劑'
-                ],
-                eduUrl: 'https://pedia.cloud.edu.tw/Entry/Detail/?title=湯',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=湯'
-            },
-            '今': {
-                words: ['今天', '今日', '今年', '今後', '古今'],
-                idioms: ['今非昔比', '古往今來', '博古通今', '今是昨非'],
-                sentences: [
-                    '<span class="highlight">今</span>天是冬至，天空下起小雨。',
-                    '<span class="highlight">今</span>年的冬天特別寒冷。'
-                ],
-                meaning: [
-                    '現在、現代',
-                    '當前的',
-                    '這、此'
-                ],
-                eduUrl: 'https://pedia.cloud.edu.tw/Entry/Detail/?title=今',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=今'
-            },
-            '至': {
-                words: ['冬至', '至今', '至少', '至於', '至親'],
-                idioms: ['至理名言', '無微不至', '至死不渝', '紛至沓來'],
-                sentences: [
-                    '今天是冬<span class="highlight">至</span>，天空下起小雨。',
-                    '這個問題<span class="highlight">至</span>今還沒有解決。'
-                ],
-                meaning: [
-                    '到、到達',
-                    '極、最',
-                    '表示轉折，相當於「至於」'
-                ],
-                eduUrl: 'https://pedia.cloud.edu.tw/Entry/Detail/?title=至',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=至'
-            },
-            '妹': {
-                words: ['妹妹', '姐妹', '表妹', '妹夫', '兄妹'],
-                idioms: ['姊妹情深', '兄友弟恭'],
-                sentences: [
-                    '我和<span class="highlight">妹</span><span class="highlight">妹</span>的心裡卻升起了小太陽。',
-                    '我有一個可愛的<span class="highlight">妹</span><span class="highlight">妹</span>。'
-                ],
-                meaning: [
-                    '稱同父母所生而年紀比自己小的女子',
-                    '同輩中年紀比自己小的女子',
-                    '年輕女子的泛稱'
-                ],
-                eduUrl: 'https://pedia.cloud.edu.tw/Entry/Detail/?title=妹',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=妹'
-            },
-            '升': {
-                words: ['升起', '上升', '升級', '升學', '晉升'],
-                idioms: ['升堂入室', '旭日東升', '升官發財', '歌舞升平'],
-                sentences: [
-                    '我和妹妹的心裡卻<span class="highlight">升</span>起了小太陽。',
-                    '太陽從東方<span class="highlight">升</span>起。'
-                ],
-                meaning: [
-                    '由低處向高處移動',
-                    '晉級、進級',
-                    '容量單位'
-                ],
-                eduUrl: 'https://pedia.cloud.edu.tw/Entry/Detail/?title=升',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=升'
-            },
-            '陽': {
-                words: ['太陽', '陽光', '夕陽', '陽台', '陽曆'],
-                idioms: ['陽光明媚', '夕陽西下', '陽春白雪', '陰陽怪氣'],
-                sentences: [
-                    '我和妹妹的心裡卻升起了小太<span class="highlight">陽</span>。',
-                    '<span class="highlight">陽</span>光照在身上很溫暖。'
-                ],
-                meaning: [
-                    '太陽',
-                    '山的南面或水的北面',
-                    '明亮、溫暖'
-                ],
-                eduUrl: 'https://pedia.cloud.edu.tw/Entry/Detail/?title=陽',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=陽'
-            },
-            '因': {
-                words: ['因為', '原因', '因此', '因素', '因果'],
-                idioms: ['因小失大', '因材施教', '事出有因', '因果報應'],
-                sentences: [
-                    '<span class="highlight">因</span>為我們滿心期待，要自己動手做湯圓。',
-                    '這件事情的<span class="highlight">因</span>果關係很複雜。'
-                ],
-                meaning: [
-                    '原因、緣故',
-                    '憑藉、依據',
-                    '連接詞，表示原因'
-                ],
-                eduUrl: 'https://pedia.cloud.edu.tw/Entry/Detail/?title=因',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=因'
-            },
-            '期': {
-                words: ['期待', '期間', '日期', '期望', '期末'],
-                idioms: ['期期艾艾', '不期而遇', '後會有期', '为期不遠'],
-                sentences: [
-                    '因為我們滿心<span class="highlight">期</span>待，要自己動手做湯圓。',
-                    '我們<span class="highlight">期</span>待明天的旅行。'
-                ],
-                meaning: [
-                    '盼望、希望',
-                    '約定的時日',
-                    '一段時間'
-                ],
-                eduUrl: 'https://pedia.cloud.edu.tw/Entry/Detail/?title=期',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=期'
-            },
-            '盯': {
-                words: ['盯著', '盯住', '盯梢', '緊盯', '盯人'],
-                idioms: ['盯人戰術', '緊盯不放'],
-                sentences: [
-                    '我和妹妹一直<span class="highlight">盯</span>著媽媽。',
-                    '老師<span class="highlight">盯</span>著不專心的學生。'
-                ],
-                meaning: [
-                    '注視、集中視線看',
-                    '緊跟著不放松',
-                    '監督、注意'
-                ],
-                eduUrl: 'https://pedia.cloud.edu.tw/Entry/Detail/?title=盯',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=盯'
-            },
-            '米': {
-                words: ['糯米', '米飯', '白米', '玉米', '米粉'],
-                idioms: ['魚米之鄉', '無米之炊', '米珠薪桂', '偷雞不着蝕把米'],
-                sentences: [
-                    '只見她把白色糯<span class="highlight">米</span>團和芝麻粉和在一起。',
-                    '我喜歡吃<span class="highlight">米</span>飯。'
-                ],
-                meaning: [
-                    '去殼的穀實，特指稻米',
-                    '長度單位',
-                    '小粒像米的東西'
-                ],
-                eduUrl: 'https://pedia.cloud.edu.tw/Entry/Detail/?title=米',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=米'
-            },
-            '團': {
-                words: ['糯米團', '團體', '團圓', '團結', '團員'],
-                idioms: ['團圓美滿', '精誠團結', '一團和氣', '花團錦簇'],
-                sentences: [
-                    '只見她把白色糯米<span class="highlight">團</span>和芝麻粉和在一起。',
-                    '中秋節是家人<span class="highlight">團</span>圓的日子。'
-                ],
-                meaning: [
-                    '圓形的',
-                    '聚集在一起',
-                    '組織、集體'
-                ],
-                eduUrl: 'https://pedia.cloud.edu.tw/Entry/Detail/?title=團',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=團'
-            },
-            '粉': {
-                words: ['芝麻粉', '粉末', '粉絲', '粉筆', '麵粉'],
-                idioms: ['粉墨登場', '粉身碎骨', '油頭粉面', '塗脂抹粉'],
-                sentences: [
-                    '只見她把白色糯米團和芝麻<span class="highlight">粉</span>和在一起。',
-                    '媽媽用麵<span class="highlight">粉</span>做麵包。'
-                ],
-                meaning: [
-                    '細末狀的物质',
-                    '使變成粉末',
-                    '白色的'
-                ],
-                eduUrl: 'https://pedia.cloud.edu.tw/Entry/Detail/?title=粉',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=粉'
-            },
-            '南': {
-                words: ['南瓜', '南方', '南北', '南邊', '指南針'],
-                idioms: ['南轅北轍', '天南地北', '走南闖北', '壽比南山'],
-                sentences: [
-                    '再用<span class="highlight">南</span>瓜粉，把白色糯米團變成黃色。',
-                    '台灣位於中國的東<span class="highlight">南</span>方。'
-                ],
-                meaning: [
-                    '方位名。與「北」相對',
-                    '南方的',
-                    '向南行'
-                ],
-                eduUrl: 'https://pedia.cloud.edu.tw/Entry/Detail/?title=南',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=南'
-            },
-            '黃': {
-                words: ['黃色', '黃昏', '黃豆', '蛋黃', '黃牛'],
-                idioms: ['黃道吉日', '面黃肌瘦', '青黃不接', '飛黃騰達'],
-                sentences: [
-                    '把白色糯米團變成<span class="highlight">黃</span>色。',
-                    '秋天樹葉變成金<span class="highlight">黃</span>色。'
-                ],
-                meaning: [
-                    '像金子或向日葵花的顏色',
-                    '指黃河',
-                    '事情失敗或計劃不能實現'
-                ],
-                eduUrl: 'https://pedia.cloud.edu.tw/Entry/Detail/?title=黃',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=黃'
-            },
-            '真': {
-                words: ['真是', '真實', '真正', '真誠', '天真'],
-                idioms: ['真心誠意', '千真萬確', '返璞歸真', '真才實學'],
-                sentences: [
-                    '<span class="highlight">真</span>是太神奇了！',
-                    '他說的是<span class="highlight">真</span>話。'
-                ],
-                meaning: [
-                    '真實、不虛假',
-                    '確實、的確',
-                    '本性、本原'
-                ],
-                eduUrl: 'https://pedia.cloud.edu.tw/Entry/Detail/?title=真',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=真'
-            },
-            '呵': {
-                words: ['笑呵呵', '呵護', '呵氣', '呵欠', '呵斥'],
-                idioms: ['一氣呵成', '呵佛罵祖', '呵壁問天'],
-                sentences: [
-                    '我笑<span class="highlight">呵</span><span class="highlight">呵</span>的說：「我要做小魚。」',
-                    '冬天時，我們會<span class="highlight">呵</span>氣取暖。'
-                ],
-                meaning: [
-                    '哈氣使溫暖',
-                    '責罵、斥責',
-                    '笑聲'
-                ],
-                eduUrl: 'https://pedia.cloud.edu.tw/Entry/Detail/?title=呵',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=呵'
-            },
-            '接': {
-                words: ['接著', '接受', '接近', '接續', '連接'],
-                idioms: ['接二連三', '再接再厲', '應接不暇', '移花接木'],
-                sentences: [
-                    '妹妹<span class="highlight">接</span>著說：「我要做小牛。」',
-                    '請把筆<span class="highlight">接</span>過去。'
-                ],
-                meaning: [
-                    '連續、繼承',
-                    '接觸、靠近',
-                    '迎接、招待'
-                ],
-                eduUrl: 'https://pedia.cloud.edu.tw/Entry/Detail/?title=接',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=接'
-            },
-            '牛': {
-                words: ['小牛', '牛奶', '牛車', '牛肉', '黃牛'],
-                idioms: ['牛刀小試', '九牛一毛', '對牛彈琴', '牛頭馬面'],
-                sentences: [
-                    '我要做小<span class="highlight">牛</span>。',
-                    '<span class="highlight">牛</span>奶很有營養。'
-                ],
-                meaning: [
-                    '哺乳動物，種類很多，常見的有黃牛、水牛等',
-                    '比喻固執或倔強',
-                    '星宿名，二十八宿之一'
-                ],
-                eduUrl: 'https://pedia.cloud.edu.tw/Entry/Detail/?title=牛',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/idiomList.jsp?idiom=牛'
-            }
-        };
-        
         // 顯示生字詳情
-        function showCharacterDetail(character, bopomofo, radical, strokes, structure) {
-            // 移除所有項目的active類
-            document.querySelectorAll('.vocabulary-item').forEach(item => {
-                item.classList.remove('active');
-            });
-            
-            // 為當前點擊的項目添加active類
-            event.currentTarget.classList.add('active');
-            
-            const detailSection = document.getElementById('character-detail');
-            const data = characterData[character] || {
-                words: ['詞1', '詞2', '詞3', '詞4', '詞5'],
-                idioms: ['成語1', '成語2', '成語3'],
-                sentences: ['例句1', '例句2'],
-                meaning: ['字義1', '字義2', '字義3'],
-                eduUrl: 'https://pedia.cloud.edu.tw/',
-                idiomUrl: 'https://dict.idioms.moe.edu.tw/'
-            };
-            
-            document.getElementById('char-large').textContent = character;
+        function showCharacterDetail(char, bopomofo, radical, strokes, structure) {
+            // 更新生字詳情區域的內容
+            document.getElementById('char-large').textContent = char;
             document.getElementById('char-bopomofo').textContent = bopomofo;
             document.getElementById('char-radical').textContent = radical;
             document.getElementById('char-strokes').textContent = strokes;
             document.getElementById('char-structure').textContent = structure;
             
-            // 更新詞語列表
-            const wordsList = document.getElementById('char-words');
-            wordsList.innerHTML = '';
-            data.words.forEach(word => {
-                const li = document.createElement('li');
-                li.textContent = word;
-                wordsList.appendChild(li);
-            });
+            // 顯示生字詳情區域
+            document.getElementById('character-detail').style.display = 'block';
             
-            // 更新成語列表
-            const idiomsList = document.getElementById('char-idioms');
-            idiomsList.innerHTML = '';
-            data.idioms.forEach(idiom => {
-                const li = document.createElement('li');
-                li.textContent = idiom;
-                idiomsList.appendChild(li);
-            });
-            
-            // 更新例句列表
-            const sentencesList = document.getElementById('char-sentences');
-            sentencesList.innerHTML = '';
-            data.sentences.forEach(sentence => {
-                const li = document.createElement('li');
-                li.innerHTML = sentence;
-                sentencesList.appendChild(li);
-            });
-            
-            // 更新字義列表
-            const meaningList = document.getElementById('char-meaning');
-            meaningList.innerHTML = '';
-            data.meaning.forEach(meaning => {
-                const li = document.createElement('li');
-                li.textContent = meaning;
-                meaningList.appendChild(li);
-            });
-            
-            // 更新外部連結
-            document.getElementById('edu-link').href = data.eduUrl;
-            document.getElementById('edu-link').innerHTML = '<i class="fas fa-external-link-alt"></i> 教育百科 - ' + character;
-            
-            document.getElementById('idiom-link').href = data.idiomUrl;
-            document.getElementById('idiom-link').innerHTML = '<i class="fas fa-external-link-alt"></i> 成語典 - ' + character + '相關成語';
-            
-            // 顯示詳情區塊
-            detailSection.style.display = 'block';
-            
-            // 滾動到詳情區塊
-            detailSection.scrollIntoView({ behavior: 'smooth' });
+            // 滾動到生字詳情區域
+            scrollToCharacterDetail();
         }
         
-        // 滾動到指定區塊
+        // 滾動到生字詳情區域
+        function scrollToCharacterDetail() {
+            const element = document.getElementById('character-detail');
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        
+        // 滾動到指定區域
         function scrollToSection(sectionId) {
-            const section = document.getElementById(sectionId);
-            if (section) {
-                section.scrollIntoView({ behavior: 'smooth' });
-            }
+            const element = document.getElementById(sectionId);
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
         
-        // 初始顯示第一個生字的詳情
+        // 初始化頁面
         document.addEventListener('DOMContentLoaded', function() {
-            // 顯示第一個生字的詳情
-            const firstCharElement = document.querySelector('.vocabulary-item');
-            if (firstCharElement) {
-                firstCharElement.classList.add('active');
-                showCharacterDetail('湯', 'ㄊㄤ', '水', 12, '左右結構');
-            }
+            // 預設顯示第一個生字的詳情
+            showCharacterDetail('湯', 'ㄊㄤ', '水', 12, '左右結構');
         });
     </script>
 </body>
